@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+    
+}
+
+body {
+    background-image:url("../img/background1.jpg"); 
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-bottom: 100px;
+}
+
+
+/*menu*/
+
+ul 
+{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li 
+{
+    display:inline-block;
+
+}
+
+ul li a 
+{
+    color:white;
+    text-decoration: none;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background-color: white;
+    color:black;
+}
+ul li.active a
+{
+    background-color: white;
+    color:black;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding-bottom: 20px;
+}
+
+/*       main       */
+
+main {
+     margin-top: 70px;
+}
+
+.content 
+{
+    display: block;
+    width:650px;
+    height: 100%;
+    margin:0 auto;
+    margin-top: 220px;
+}
+
+.main-h1 
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Passion One', cursive;
+    font-size: 3.2em; 
+}
+
+.main-h2 
+{
+    
+    text-align: center;
+
+
+}
+
+
+
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+}
+
+footer a 
+{
+    text-decoration: none;
+    color:black;
+}
+
+
+footer a:hover 
+{
+
+    color:white;
+
+}
+
+
+
+
+
